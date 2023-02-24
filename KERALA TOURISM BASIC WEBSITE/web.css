@@ -1,0 +1,333 @@
+body{
+    background-color: rgb(240, 124, 124) !important;
+}
+/* navtop */
+.navtop {
+    background-color: teal !important;
+    padding-left: 1100px;
+}
+
+.navtop .fa {
+    color: #f5f5f5;
+    border-radius: 50px;
+    padding: 8px;
+    margin: 2px;
+    transition: .2s;
+}
+
+.navtop .fa:hover {
+    background-color: #ffbf00;
+    color: black;
+}
+
+/* navbar */
+.navbar{
+    background-color: #ffbf00;
+}
+
+.navbar-brand .img{
+width: 180px;
+height: 150px;
+margin-left: 40px;
+border-radius: 15px;
+}
+
+.nav-item{
+    font-size: x-large;
+    margin: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+}
+
+.nav-item .nav-link:hover {
+color: white !important;
+background-color: teal;
+border-radius: 20px;
+font-style: oblique;
+}
+
+.home-slide{
+max-height: 600px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin-left: 90px;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Style the back side */
+  .flip-card-back{
+    transform: rotateY(180deg);
+  }
+
+/* festival */
+  .fest .festimg{
+    max-height: 600px;
+  }
+
+.fest .carousel-control-next{
+  width: 50px;
+  height: 50px;
+  background-color: teal;
+  border-radius: 50%;
+  margin-top: 260px;
+
+}
+
+  .fest .carousel-control-prev{
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    border-radius: 50%;
+    margin-top: 260px;
+  
+  }
+
+  /* connect */
+.connect .img
+{
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.connect .img:hover {
+    transform: scale(1.03,1.1);
+    transition: 0.3s;
+}
+
+/* about us */
+.about{
+    color: white;
+}
+.about:hover{
+    background-color: #fbbf00;
+    color: black;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+
+/* explore */
+.exp .col{
+    max-width: 50%;
+
+}
+.exp{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.exp:hover{
+    background-color: #fbbf00;
+    color: black;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.exp .carousel-item{
+    max-height: 400px !important;
+}
+
+
+
+/* form */
+  .form{
+      background-color: teal;
+      color: white;
+      border-radius: 20px;
+  }
+  .form .container{
+      padding: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* footer */
+
+.footer-distributed {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: teal;
+  color: white; 
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+}
+
+.footer-distributed .footer-center,
+.footer-distributed .footer-left,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top
+}
+
+.footer-distributed .footer-left {
+    width: 25%;
+    margin-top: 20px;
+}
+
+
+.footer-distributed .footer-left img {
+    max-height:200px;
+    width: 60%;
+    border-radius: 20px;
+    margin-left: 75px;
+}
+
+.footer-distributed .footer-links {
+    color: white;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-center {
+    width: 35%;
+    margin-top: 40px;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #fff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;
+    margin: 0
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2
+}
+
+.footer-distributed .footer-center p a {
+    color: #f5f5f5;
+    text-decoration: none
+}
+
+.footer-distributed .footer-right {
+    width: 35%;
+    margin-top: 35px;
+    text-align: justify;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: whitesmoke;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px
+}
+
+@media (max-width:880px) {
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0
+    }
+}
+
+#footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px
+}

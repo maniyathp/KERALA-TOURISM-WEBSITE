@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>REGISTRATION</title>
+</head>
+
+<body style="background-color: lightcoral;">
+
+<!-- navtop -->
+<div class="navtop" style="color: white;">
+    <a href="https://www.facebook.com/keralatourism/" class="fa fa-facebook "></a>
+    <a href="https://www.instagram.com/keralatourism/" class="fa fa-instagram "></a> 
+    <a class="fa fa-phone">-1800 203 1111</a> 
+    <a href="mailto:vksp199@gmail.com" class="fa fa-envelope ">-info@keralatourism.com</a>
+  </div>
+  
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand"> <img src="C:\KERALA TOURISM WEBSITE\KERALA TOURISM BASIC WEBSITE\image\Kerala_Tourism_May10.1_IkDaUEw20210911211106.jpg" class="img img-responsive" alt="its an image"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="exp.html" class="nav-link">EXPLORE</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">ABOUT KERALA</a></li>
+                <li class="nav-item"><a href="reg.html" class="nav-link">REGISTER FOR THE TOUR</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr/>
+
+
+
+<!-- form -->
+<form action="insert.php" method="POST" class="container form" data-netlify="true">
+    <br><h2 style="text-align: center;">REGISTRATION</h2><hr/>
+    <div class="container">
+      <div class="row"> 
+      <div class="col">     
+     <tr>
+      <td>Full Name :</td>
+      <td><input type="text" name="username"required></td>
+     </tr><br><br>
+     <tr>
+        <td>Email-id :</td>
+        <td><input type="email" name="email" required></td>
+       </tr><br><br>
+     <tr>
+      <td>Password :</td>
+      <td><input type="password" name="password" required></td>
+     </tr><br><br>
+     <tr>
+      <td>Gender :</td>
+      <td>
+       <input type="radio" name="gender" value="m" required>Male
+       <input type="radio" name="gender" value="f" required>Female
+      </td>
+     </tr><br><br>
+ 
+     <tr>
+      <td>Phone no :</td>
+      <td>
+       <select name="phoneCode" required>
+        <option selected hidden value="">Select Code</option>
+        <option value="+91">+91</option>
+        <option value="+92">+92</option>
+        <option value="+93">+93</option>
+        <option value="+94">+94</option>
+        <option value="+95">+95</option>
+        <option value="+96">+96</option>
+       </select>
+       <input type="phone" name="phone" required>
+      </td>
+     </tr><br><br>
+     <tr>
+      <td><input type="submit" value="Submit"></td>
+     </tr><br><br>
+    </div>
+    <div class="col ">
+        <img src="C:\KERALA TOURISM WEBSITE\KERALA TOURISM BASIC WEBSITE\image\kerala new market backwater final.jpg" class="img-responsive img-fluid" style="height: 100%; border-radius: 15px;">  
+    </div>
+
+
+</div>
+</div>
+   </form>
+   
+   <hr/>
+<!-- footer -->
+
+  <footer class="footer-distributed">
+      <div class="footer-left"> <img src="C:\KERALA TOURISM WEBSITE\KERALA TOURISM BASIC WEBSITE\image\Kerala_Tourism_May10.1_IkDaUEw20210911211106.jpg">
+        <p class="footer-links"> <a href="index.html">Home</a> | <a href="exp.html">Explore</a> | <a href="about.html">About</a> | <a href="reg.html">Register</a></p>
+      </div>
+      <div class="footer-center">
+          <div> <i class="fa fa-map-marker"></i>
+              <p>Udyog Bhavan, Block No. 16,
+                4th Floor, Sector-11,
+               <span>KOCHI - 382 011.</span> </p>
+          </div>
+          <div> <i class="fa fa-phone"></i>
+              <p>1800 203 1111</p>
+          </div>
+          <div> <i class="fa fa-envelope"></i>
+              <p><a href="mailto:vksp199@gmail.com">info@keralatourism.com</a></p>
+          </div>
+      </div>
+      <div class="footer-right">
+          <p class="footer-company-about"> <span>About KERALA</span>Named as one of the ten paradises of the world by National Geographic Traveler, Kerala is famous especially for its ecotourism initiatives and beautiful backwaters. Its unique culture and traditions, coupled with its varied demography, have made Kerala one of the most popular tourist destinations in the world.</p>
+          <div class="footer-icons"> <a href="https://www.facebook.com/keralatourism/"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/keralatourism/"><i class="fa fa-instagram"></i></a> </div>
+      </div>
+  </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
